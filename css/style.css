@@ -1,0 +1,329 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F3EEE7; 
+}
+
+.top-bar {
+    background-color: #262626;
+    width: 100vw;
+    height: 50px;
+}
+
+.Hero {
+    background-image: url("../images/Beep.png");
+    width: 100%;
+    height: 500px;
+    position:relative;
+    background-size:cover;
+    
+    
+}
+
+.Name{
+text-decoration:none;
+color: white;
+
+}
+
+
+
+
+.JobTitle{
+font-size: 24px;
+    color: #FFFFFF;
+    font-family: 'Raleway';
+}
+
+
+
+.navlinks {
+    font-size: 22px;
+    color: #FFFFFF;
+    margin: 0 30px;
+}
+
+.logo {
+    font-family: 'Tenor Sans';
+    display: block;
+    text-decoration:  none;
+    font-size: 27px;
+    margin: 0 30px;
+}
+
+.navlinks {
+    font-family: 'Raleway';
+    list-style: none;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.navlinks li {
+    padding: 10px 15px;
+}
+
+.navlinks a {
+    text-decoration: none;
+    color: #FFFFFF; 
+}
+
+.project-image-wrapper {
+    position: relative;
+    display: block; 
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.project-image-bg {
+    display: inline-block;
+    width: 50%;
+    position: relative;
+}
+.project-image-bg::before {
+    content: '';
+    display: flex;
+    padding-top: 66.66%;
+    background-image: url("../images/plant\ pals.png");
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    right: -100px;
+    bottom: 0;
+}
+
+.project-image {
+    width: 38%; 
+   
+}
+
+
+
+.AboutHeader{
+text-align: center;
+font-family: 'Raleway';
+}
+
+.Skills{
+    text-align: center;
+    }
+
+
+.Work {
+font-size: 32px;
+font-family: 'Raleway';
+font-weight: 500;
+
+}
+
+.AboutHeader {
+    font-size: 32px;
+    font-family: 'Raleway';
+    font-weight: 500;
+}
+
+
+.Skills {
+    font-size: 32px;
+    font-family: 'Raleway';
+    font-weight: 500;
+
+}
+
+
+.LineOne{
+justify-content: flex-start;
+font-weight: 200;
+
+}
+
+.LineTwo {
+    justify-content: flex-end;
+}
+
+.Location {
+    justify-content: center;
+}
+
+.ProjectContainer {
+display: flex;
+flex-direction:row;
+
+}
+
+.PlantPalBackground{
+background-image: url(../images/plant\ pals.png);
+
+}
+
+.AboutParagraph {
+    letter-spacing: 0.04em;
+}
+
+.Wrapper {
+display: flex;
+flex-direction:row;
+justify-content: space-between;
+
+}
+
+.Quote {
+    color:#FFFFFF;
+    font-size: 29px;
+    font-family: 'Montserrat';
+    font-style: italic;
+    text-align: left;
+    font-style: italic;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: fit-content;
+
+
+}
+
+
+button {
+padding:1rem;
+margin: 0.5rem;
+border-color: #A69B8D;
+border-radius: 35px;
+background-color: rgba(255, 255, 255, 0.8);
+}
+
+.WorkParagraph {
+font-size: 22px;
+font-family: "Montserrat";
+
+}
+
+
+.AboutParagraph {
+    font-size: 22px;
+    font-family: "Montserrat";
+    
+    }
+
+
+.Tools {
+    font-size: 22px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    letter-spacing: 0.04em;
+
+}
+
+.ToolsBio {
+    font-size: 22px;
+    font-family: "Montserrat";
+    letter-spacing: 0.04em;
+
+}
+
+.Design {
+    font-size: 22px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    letter-spacing: 0.04em;
+
+}
+
+.DesignBio {
+    font-size: 22px;
+    font-family: "Montserrat";
+    letter-spacing: 0.04em;
+
+}
+
+.Organizational {
+    font-size: 22px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    letter-spacing: 0.04em;
+
+}
+
+.OrganizationalBio {
+    font-size: 22px;
+    font-family: "Montserrat";
+    letter-spacing: 0.04em;
+
+}
+
+.LetsConnect {
+    font-size: 25px;
+    font-family: 'Raleway';
+    font-weight: 500;
+
+}
+
+.EmailInfo {
+    font-family: "Montserrat";
+    font-size: 20px;
+    letter-spacing: 0.05em;
+    font-weight: 700;
+    
+}
+
+.phonenumber {
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 700;
+   
+}
+
+
+.FooterName {
+    font-size: 22px;
+    font-family: Montserrat;
+    color: #262626;
+
+}
+
+.copyright{
+    height: 28px;
+}
+
+.global{
+    height: 30px;
+
+}
+
+.Location {
+font-size: 22px;
+font-family: Montserrat;
+color: #262626;
+}
+
+.Container {
+max-width: 1440px;
+margin: 0 30px;
+
+}
+
+
+.LocationStuff  {
+
+
+}
+
+
+.line-div {
+    width: 100%;
+    position: relative;
+    border-top: 2px solid #57514a;
+    box-sizing: border-box;
+    height: 2px;
+    }
+
+   
